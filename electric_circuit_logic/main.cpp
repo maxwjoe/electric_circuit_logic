@@ -20,7 +20,7 @@ float electrical_OR(float V1, float V2);
 float electrical_four_AND(float V1, float V2, float V3, float V4, float VCC);
 void electrical_buffer(float* V_IN);
 
-//Logical Expression Definitions
+//Logical Expression 
 float ABorC(float va, float vb, float vc);
 
 int main() {

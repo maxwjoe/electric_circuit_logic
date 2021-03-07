@@ -19,6 +19,11 @@ float* resistor(float V_IN, float V_DROP) {
 		return return_drop;
 }
 
+float* transistor(float collector, float base) {
+	//No Implementation Yet
+	return 1;
+}
+
 
 void electrical_buffer(float* V_IN, float hi, float vcc) {
 	if (*V_IN >= hi)

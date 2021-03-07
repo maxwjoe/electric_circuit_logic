@@ -18,3 +18,9 @@ float* resistor(float V_IN, float V_DROP) {
 		*(return_drop) = V_IN * V_DROP;
 		return return_drop;
 }
+
+
+void electrical_buffer(float* V_IN, float hi, float vcc) {
+	if (*V_IN >= hi)
+		*V_IN = vcc;
+}

@@ -10,8 +10,6 @@
 #define HI_MIN 2.0f
 #define LOW_MAX 0.8f
 
-//Prototypes
-	//Logic Circuits
 
 //Logical Expression 
 float ABorC(float va, float vb, float vc);
@@ -66,8 +64,3 @@ float ABorC(float va, float vb, float vc) {
 
 
 
-//High Level of Abstraction for an Electrical Buffer
-void electrical_buffer(float* V_IN) {
-	if (*V_IN >= HI_MIN)
-		*V_IN = POWER_SUPPLY;
-}

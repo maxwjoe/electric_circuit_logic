@@ -27,5 +27,6 @@ float* transistor(float collector, float base) {
 
 void electrical_buffer(float* V_IN, float hi, float vcc) {
 	if (*V_IN >= hi)
+	//hjjjj
 		*V_IN = vcc;
 }
